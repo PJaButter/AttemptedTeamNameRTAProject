@@ -1,0 +1,25 @@
+﻿Build started 5/2/2016 5:03:31 PM.
+     1>Project "E:\Full Sail\Notes&Classwork\Real Time Animation\RendererStub\RendererStub\Renderer(Stub)\Renderer(Stub).vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Visual Studio 2013\Visual Studio 2013\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Debug\Renderer(Stub).pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         E:\Visual Studio 2013\Visual Studio 2013\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\Renderer(Stub).pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt RenderContext.cpp Renderer.cpp RenderMaterial.cpp RenderSet.cpp RenderShape.cpp
+         RenderShape.cpp
+         RenderSet.cpp
+         RenderMaterial.cpp
+         Renderer.cpp
+         RenderContext.cpp
+         Generating Code...
+       Lib:
+         E:\Visual Studio 2013\Visual Studio 2013\VC\bin\x86_amd64\Lib.exe /OUT:"E:\Full Sail\Notes&Classwork\Real Time Animation\RendererStub\RendererStub\x64\Debug\Renderer(Stub).lib" /NOLOGO /MACHINE:X64 x64\Debug\RenderContext.obj
+         x64\Debug\Renderer.obj
+         x64\Debug\RenderMaterial.obj
+         x64\Debug\RenderSet.obj
+         x64\Debug\RenderShape.obj
+         x64\Debug\stdafx.obj
+         Renderer(Stub).vcxproj -> E:\Full Sail\Notes&Classwork\Real Time Animation\RendererStub\RendererStub\x64\Debug\Renderer(Stub).lib
+     1>Done Building Project "E:\Full Sail\Notes&Classwork\Real Time Animation\RendererStub\RendererStub\Renderer(Stub)\Renderer(Stub).vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.56

@@ -1,0 +1,12 @@
+﻿Build started 5/2/2016 5:03:32 PM.
+     1>Project "E:\Full Sail\Notes&Classwork\Real Time Animation\RendererStub\RendererStub\RendererStub\RendererStub.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         E:\Visual Studio 2013\Visual Studio 2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Full Sail\Notes&Classwork\Real Time Animation\RendererStub\RendererStub\x64\Debug\RendererStubTest.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Full Sail\Notes&Classwork\Real Time Animation\RendererStub\RendererStub\x64\Debug\RendererStubTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Full Sail\Notes&Classwork\Real Time Animation\RendererStub\RendererStub\x64\Debug\RendererStubTest.lib" /MACHINE:X64 x64\Debug\RendererStub.obj
+         x64\Debug\stdafx.obj
+         "E:\Full Sail\Notes&Classwork\Real Time Animation\RendererStub\RendererStub\x64\Debug\Renderer(Stub).lib"
+         RendererStub.vcxproj -> E:\Full Sail\Notes&Classwork\Real Time Animation\RendererStub\RendererStub\x64\Debug\RendererStubTest.exe
+     1>Done Building Project "E:\Full Sail\Notes&Classwork\Real Time Animation\RendererStub\RendererStub\RendererStub\RendererStub.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.46
