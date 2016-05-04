@@ -39,7 +39,10 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>E:\Programs\Autodesk\FBX\2017.0.1\include;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\Programs\Autodesk\FBX\2017.0.1\lib\vs2013\x86\release;E:\Programs\Autodesk\FBX\2017.0.1\lib\vs2013\x64\release;E:\Programs\Autodesk\FBX\2017.0.1\lib\vs2013\x64\debug;E:\Programs\Autodesk\FBX\2017.0.1\lib\vs2013\x86\debug;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <PrecompiledHeader>
@@ -72,6 +75,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ExporterFuncs.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
