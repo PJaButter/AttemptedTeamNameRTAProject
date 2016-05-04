@@ -1,0 +1,13 @@
+﻿Build started 5/4/2016 6:14:14 PM.
+     1>Project "E:\Full Sail\Notes&Classwork\Real Time Animation\AttemptedTeamNameRTAProject\RendererStub\RendererStub\FBXExporter\FBXExporter.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         E:\Visual Studio 2013\Visual Studio 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ExporterFuncs.cpp
+         ExporterFuncs.cpp
+       Lib:
+         E:\Visual Studio 2013\Visual Studio 2013\VC\bin\Lib.exe /OUT:"E:\Full Sail\Notes&Classwork\Real Time Animation\AttemptedTeamNameRTAProject\RendererStub\RendererStub\Debug\FBXExporter.lib" /NOLOGO Debug\ExporterFuncs.obj
+         FBXExporter.vcxproj -> E:\Full Sail\Notes&Classwork\Real Time Animation\AttemptedTeamNameRTAProject\RendererStub\RendererStub\Debug\FBXExporter.lib
+     1>Done Building Project "E:\Full Sail\Notes&Classwork\Real Time Animation\AttemptedTeamNameRTAProject\RendererStub\RendererStub\FBXExporter\FBXExporter.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.18
