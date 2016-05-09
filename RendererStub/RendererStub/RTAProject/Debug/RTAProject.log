@@ -1,14 +1,13 @@
-﻿Build started 5/4/2016 6:21:43 PM.
-     1>Project "E:\Full Sail\Notes&Classwork\Real Time Animation\AttemptedTeamNameRTAProject\RendererStub\RendererStub\RTAProject\RTAProject.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         E:\Visual Studio 2013\Visual Studio 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
-         main.cpp
-       Link:
-         E:\Visual Studio 2013\Visual Studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Full Sail\Notes&Classwork\Real Time Animation\AttemptedTeamNameRTAProject\RendererStub\RendererStub\Debug\RTAProject.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Full Sail\Notes&Classwork\Real Time Animation\AttemptedTeamNameRTAProject\RendererStub\RendererStub\Debug\RTAProject.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Full Sail\Notes&Classwork\Real Time Animation\AttemptedTeamNameRTAProject\RendererStub\RendererStub\Debug\RTAProject.lib" /MACHINE:X86 Debug\main.obj
-         Debug\XTime.obj
-         RTAProject.vcxproj -> E:\Full Sail\Notes&Classwork\Real Time Animation\AttemptedTeamNameRTAProject\RendererStub\RendererStub\Debug\RTAProject.exe
-     1>Done Building Project "E:\Full Sail\Notes&Classwork\Real Time Animation\AttemptedTeamNameRTAProject\RendererStub\RendererStub\RTAProject\RTAProject.vcxproj" (Build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:01.83
+﻿C:\Users\Bella Rose\Desktop\AttemptedTeamNameRTAProject\RendererStub\RendererStub\RTAProject\BasicPS.hlsl(48,19-52): warning X3206: 'mul': implicit truncation of vector type
+C:\Users\Bella Rose\Desktop\AttemptedTeamNameRTAProject\RendererStub\RendererStub\RTAProject\BasicPS.hlsl(48,8-52): warning X3206: implicit truncation of vector type
+C:\Users\Bella Rose\Desktop\AttemptedTeamNameRTAProject\RendererStub\RendererStub\RTAProject\BasicPS.hlsl(50,29-53): warning X3206: implicit truncation of vector type
+C:\Users\Bella Rose\Desktop\AttemptedTeamNameRTAProject\RendererStub\RendererStub\RTAProject\BasicPS.hlsl(58,44-68): warning X3206: implicit truncation of vector type
+  
+  compilation header save succeeded; see C:\Users\Bella Rose\Desktop\AttemptedTeamNameRTAProject\RendererStub\RendererStub\RTAProject\BasicPS.csh
+  compilation object save succeeded; see C:\Users\Bella Rose\Desktop\AttemptedTeamNameRTAProject\RendererStub\RendererStub\Debug\BasicPS.cso
+  compilation header save succeeded; see C:\Users\Bella Rose\Desktop\AttemptedTeamNameRTAProject\RendererStub\RendererStub\RTAProject\BasicVS.csh
+  compilation object save succeeded; see C:\Users\Bella Rose\Desktop\AttemptedTeamNameRTAProject\RendererStub\RendererStub\Debug\BasicVS.cso
+  XTime.cpp
+  main.cpp
+  Generating Code...
+  RTAProject.vcxproj -> C:\Users\Bella Rose\Desktop\AttemptedTeamNameRTAProject\RendererStub\RendererStub\Debug\RTAProject.exe

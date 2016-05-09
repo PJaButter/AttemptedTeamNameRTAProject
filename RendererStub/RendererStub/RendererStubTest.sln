@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Renderer(Stub)", "Renderer(Stub)\Renderer(Stub).vcxproj", "{FE4B8D13-CB5E-44BA-8D50-DC78ACA8504B}"
 EndProject
@@ -56,6 +56,7 @@ Global
 		{4D96E326-6552-4256-A363-2C6A8E9CE167}.Debug|Win32.ActiveCfg = Debug|Win32
 		{4D96E326-6552-4256-A363-2C6A8E9CE167}.Debug|Win32.Build.0 = Debug|Win32
 		{4D96E326-6552-4256-A363-2C6A8E9CE167}.Debug|x64.ActiveCfg = Debug|Win32
+		{4D96E326-6552-4256-A363-2C6A8E9CE167}.Debug|x64.Build.0 = Debug|Win32
 		{4D96E326-6552-4256-A363-2C6A8E9CE167}.Debug|x86.ActiveCfg = Debug|Win32
 		{4D96E326-6552-4256-A363-2C6A8E9CE167}.Debug|x86.Build.0 = Debug|Win32
 		{4D96E326-6552-4256-A363-2C6A8E9CE167}.Release|Mixed Platforms.ActiveCfg = Release|Win32

@@ -39,6 +39,15 @@ struct Vertex
 	XMFLOAT4 tan;
 };
 
+struct MATRICES
+{
+	XMMATRIX view;
+	XMMATRIX proj;
+};
+
 // Function Prototypes
 XMMATRIX Movement(float time);
 vector<int> SortByDepth(float distances[], int numItems);
+void MakeVertexBufferDesc(D3D11_BUFFER_DESC& desc, UINT ByteWidth, UINT ByteStride);
+void MakeIndexBufferDesc(D3D11_BUFFER_DESC& desc, UINT ByteWidth, UINT ByteStride);
+void MakeConstBufferDesc(D3D11_BUFFER_DESC& desc, UINT ByteWidth, UINT ByteStride);

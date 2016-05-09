@@ -12,7 +12,6 @@ D3D11_VIEWPORT					viewport;
 ID3D11DepthStencilView*			depthStencilView = nullptr;
 ID3D11Texture2D*				depthStencil = nullptr;
 XMMATRIX						ProjectionMatrix;
-
 //************************************************************
 //************ SIMPLE WINDOWS APP CLASS **********************
 //************************************************************
@@ -25,6 +24,10 @@ class DEMO_APP
 
 	XMMATRIX ViewMatrix;
 	XTime timer;
+
+	ID3D11InputLayout*				InputLayout = nullptr;
+
+
 
 public:
 
@@ -46,7 +49,7 @@ DEMO_APP::DEMO_APP(HINSTANCE hinst, WNDPROC proc)
 	ZeroMemory(&wndClass, sizeof(wndClass));
 	wndClass.cbSize = sizeof(WNDCLASSEX);
 	wndClass.lpfnWndProc = appWndProc;
-	wndClass.lpszClassName = L"DirectXApplication";
+	wndClass.lpszClassName = L"RTA Project";
 	wndClass.hInstance = application;
 	wndClass.hCursor = LoadCursor(NULL, IDC_ARROW);
 	wndClass.hbrBackground = (HBRUSH)(COLOR_WINDOWFRAME);
@@ -56,7 +59,7 @@ DEMO_APP::DEMO_APP(HINSTANCE hinst, WNDPROC proc)
 	RECT window_size = { 0, 0, BACKBUFFER_WIDTH, BACKBUFFER_HEIGHT };
 	AdjustWindowRect(&window_size, WS_OVERLAPPEDWINDOW, false);
 
-	window = CreateWindow(L"DirectXApplication", L"Philip Bracco's Graphics II Project", WS_OVERLAPPEDWINDOW,
+	window = CreateWindow(L"RTA Project", L"Scorpions Scorpion's RTA Projects", WS_OVERLAPPEDWINDOW,
 		CW_USEDEFAULT, CW_USEDEFAULT, window_size.right - window_size.left, window_size.bottom - window_size.top,
 		NULL, NULL, application, this);
 
@@ -113,6 +116,18 @@ DEMO_APP::DEMO_APP(HINSTANCE hinst, WNDPROC proc)
 	depthStencilViewDesc.Format = DXGI_FORMAT_D32_FLOAT;
 
 	result = device->CreateDepthStencilView(depthStencil, &depthStencilViewDesc, &depthStencilView);
+
+	/////////////////////Real work being done Stay back 100 feet//////////////////////
+
+	D3D11_INPUT_ELEMENT_DESC vLayout[] =
+	{
+		{ "TEXCOORD", 0, DXGI_FORMAT_R32G32_FLOAT, 0, D3D11_APPEND_ALIGNED_ELEMENT, D3D11_INPUT_PER_VERTEX_DATA, 0 },
+		{ "POSITION", 0, DXGI_FORMAT_R32G32B32A32_FLOAT, 0, D3D11_APPEND_ALIGNED_ELEMENT, D3D11_INPUT_PER_VERTEX_DATA, 0 },
+		{ "NORMAL", 0, DXGI_FORMAT_R32G32B32_FLOAT, 0, D3D11_APPEND_ALIGNED_ELEMENT, D3D11_INPUT_PER_VERTEX_DATA, 0 }
+	};
+
+	//result = device->CreateInputLayout(vLayout, 3, Trivial_VS, sizeof(Trivial_VS), &InputLayout);
+
 }
 
 //************************************************************
